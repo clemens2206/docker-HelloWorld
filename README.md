@@ -4,7 +4,7 @@
 ___
 
 ### Einleitung
-In diesem Bericht geht es um die Ausführung und Kombilieren eines Java-Programmes, welches innerhalb eines Docker-Containers mit openjdk ausgeführt wird.
+In diesem Bericht geht es um die Ausführung und das Kompilieren eines Java-Programmes, welches innerhalb eines Docker-Containers mit openjdk ausgeführt wird.
 Dieses Projekt bietet ein einfaches Beispiel für die Verwendung von Docker-Containern zum Erstellen und Ausführen einer Java-Anwendung, ohne Java zu installieren.
 ___
 
@@ -17,7 +17,7 @@ ___
 * openJDK 9-b170-jre
 ___
 
-### Kobilieren einer Java Klasse
+### Kompilieren einer Java Klasse
 Zum Erstellen einer Java-Anwendung benötigen wir ein Java Development Kit (JDK). Wir können ein vorhandenes Docker-Image mit einem JDK verwenden, um unsere Klasse zu erstellen.
 
 `docker run -it -v $(pwd):/build openjdk:8u131-jdk-alpine javac /build/HelloWorld.java`
